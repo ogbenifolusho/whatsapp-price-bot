@@ -259,17 +259,6 @@ function handleInteractiveMessage($from, $interactive, $db) {
     }
 }
 
-// Health check endpoint
-if (isset($_GET['health']) && $_GET['health'] === 'check') {
-    echo json_encode([
-        'status' => 'healthy',
-        'timestamp' => date('c'),
-        'version' => '1.0',
-        'webhook_url' => 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
-    ]);
-    exit;
-}
-
 // If we get here, return 200 for any other requests
 http_response_code(200);
 echo json_encode(['status' => 'ok']);
