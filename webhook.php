@@ -7,6 +7,17 @@ require_once 'scraper.php';
 // Set headers for webhook response
 header('Content-Type: application/json');
 
+// Health check endpoint
+if (isset($_GET['health']) && $_GET['health'] === 'check') {
+    echo json_encode([
+        'status' => 'healthy',
+        'timestamp' => date('c'),
+        'version' => '1.0',
+        'webhook_url' => 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
+    ]);
+    exit;
+}
+
 // Handle GET request for webhook verification
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     verifyWebhook();
