@@ -1,0 +1,22 @@
+[Sun Jun  1 01:23:06 2025] PHP 8.2.28 Development Server (http://0.0.0.0:8080) started
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44602 Accepted
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44602 [200]: GET /webhook.php?hub_mode=subscribe&hub_verify_token=pricebotng_verify_token_2025&hub_challenge=test123
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44602 Closing
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44604 Accepted
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44604 [200]: GET /webhook.php?health=check
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44604 Closing
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44616 Accepted
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44616 [200]: POST /admin/login.php
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44616 Closing
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44626 Accepted
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44626 [200]: POST /webhook.php
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44626 Closing
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44640 Accepted
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44640 [200]: POST /webhook.php
+[Sun Jun  1 01:23:10 2025] 127.0.0.1:44640 Closing
+[Sun Jun  1 01:24:22 2025] 127.0.0.1:55876 Accepted
+[Sun Jun  1 01:24:22 2025] 127.0.0.1:55876 [200]: GET /
+[Sun Jun  1 01:24:22 2025] 127.0.0.1:55876 Closing
+[Sun Jun  1 01:24:26 2025] 127.0.0.1:55892 Accepted
+[Sun Jun  1 01:24:26 2025] 127.0.0.1:55892 [200]: GET /admin/login.php
+[Sun Jun  1 01:24:26 2025] 127.0.0.1:55892 Closing
