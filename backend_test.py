@@ -7,7 +7,7 @@ from datetime import datetime
 
 class PriceBotNGTester:
     def __init__(self):
-        self.base_url = "http://localhost"  # Default to localhost for testing
+        self.base_url = "http://localhost:8080"  # Use PHP development server
         self.tests_run = 0
         self.tests_passed = 0
         self.test_results = []
