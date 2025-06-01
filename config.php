@@ -7,8 +7,8 @@ define('WA_API_URL', 'https://graph.facebook.com/v18.0/');
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'hslcomn2_whatsapp-bot');
-define('DB_USER', 'hslcomn2_whatsapp-bot');
+define('DB_NAME', 'hslcomn2_whatsapp_bot');
+define('DB_USER', 'hslcomn2_whatsapp_bot');
 define('DB_PASS', 'cgaWQL5hZ)fhHY5&NW');
 
 // Admin credentials
